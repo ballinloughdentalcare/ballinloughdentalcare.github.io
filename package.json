@@ -1,0 +1,28 @@
+{
+  "name": "ballinloughdentalcare.github.io",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A dentist's website",
+  "main": "index.js",
+  "scripts": {
+    "build": "cake build",
+    "start": "coffee app.coffee",
+    "test": "mocha --require coffeescript/register test/**/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ballinloughdentalcare/ballinloughdentalcare.github.io.git"
+  },
+  "keywords": [
+    "dentist",
+    "cork",
+    "ireland",
+    "dental"
+  ],
+  "author": "\"JJ Buckley\" <jj@bjjb.org> (https://bjjb.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ballinloughdentalcare/ballinloughdentalcare.github.io/issues"
+  },
+  "homepage": "https://github.com/ballinloughdentalcare/ballinloughdentalcare.github.io#readme"
+}
