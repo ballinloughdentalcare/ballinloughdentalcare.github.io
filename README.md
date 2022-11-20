@@ -21,9 +21,9 @@ with the name ballinloughdentalcare.github.io, to ensure it is hosted at
 https://ballinloughdentalcare.github.io, which will serve as the value of the
 DNS CNAME at ballinloughdentalcare.ie.
 
-- [✓] Host on GitHub
-- [✓] GitHub Actions
-- [✓] DNS
+- [x] Host on GitHub
+- [x] GitHub Actions
+- [x] DNS
 - [ ] Build from GitHub Actions
 
 [node.js]: https://nodejs.org/en/
