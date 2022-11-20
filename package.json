@@ -6,7 +6,6 @@
   "main": "index.js",
   "scripts": {
     "build": "cake build",
-    "start": "coffee app.coffee",
     "test": "mocha --require coffeescript/register test/**/*.coffee"
   },
   "repository": {
@@ -24,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/ballinloughdentalcare/ballinloughdentalcare.github.io/issues"
   },
-  "homepage": "https://github.com/ballinloughdentalcare/ballinloughdentalcare.github.io#readme"
+  "homepage": "https://github.com/ballinloughdentalcare/ballinloughdentalcare.github.io#readme",
+  "devDependencies": {
+    "coffeescript": "^2.7.0",
+    "mocha": "^10.1.0",
+    "pug": "^3.0.2",
+    "stylus": "^0.59.0"
+  }
 }

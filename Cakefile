@@ -3,9 +3,9 @@ task 'build', 'build the website', ->
   { compileFile } = require 'pug'
   { basename, extname } = require 'path'
   glob = require 'glob'
-  glob '*.pug', (err, files) ->
+  glob 'src/*.pug', (err, files) ->
     files.forEach (f) ->
-      o = "#{basename(f)}.html"
+      o = "#{basename(f, extname(f))}.html"
       c = compileFile(f)
       writeFile(o, c(), 'utf8', -> console.log("#{f} → #{o} ✓"))
 
